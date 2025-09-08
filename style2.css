@@ -1,0 +1,12 @@
+#carouselExample {
+  width: 500px;
+  height: 700px;
+  display: flex;
+  justify-items: center;
+}
+#carouselExample:focus {
+  width: 500px;
+  height: 700px;
+  display: flex;
+  justify-items: center;
+}
