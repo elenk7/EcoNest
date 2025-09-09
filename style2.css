@@ -1,3 +1,13 @@
+#logo {
+  border-radius: 100%;
+}
+#background {
+  background-color: rgb(165, 197, 172);
+}
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(34, 35, 33);
+}
 #carouselExample {
   display: flex;
   justify-items: center;
@@ -21,4 +31,42 @@
 }
 .btn:hover {
   background-color: seagreen;
+}
+h4 {
+  text-align: center;
+  margin-top: 70px;
+  color: rgb(62, 113, 67);
+}
+h5 {
+  text-align: center;
+  color: rgb(62, 113, 67);
+}
+#main {
+  color: rgb(99, 133, 74);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.card.text-bg-dark {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#prod {
+  color: rgb(23, 58, 31);
+  background-color: rgb(252, 229, 201);
+  border-radius: 10%;
+}
+#h2 {
+  color: rgb(62, 113, 67);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#bullet {
+  font-size: large;
+}
+#h3 {
+  margin-top: 30px;
+  color: rgb(33, 59, 35);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
