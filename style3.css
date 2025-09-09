@@ -8,4 +8,21 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+.accordion-button {
+  background-color: white;
+}
+.accordion-button:hover {
+  background-color: rgb(165, 197, 172);
+}
+.accordion-button:focus {
+  background-color: rgb(165, 197, 172);
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(165, 197, 172);
+  box-shadow: 0 0 0 0.25rem rgb(165, 197, 172);
+}
+h1 {
+  color: rgb(42, 97, 71);
 }
