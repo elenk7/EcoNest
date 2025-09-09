@@ -73,3 +73,10 @@ h5 {
 .card-body {
   background-color: rgb(249, 234, 214);
 }
+footer {
+  background-color: rgb(218, 207, 196);
+  padding: 10px;
+}
+#talk {
+  margin-left: 10px;
+}
