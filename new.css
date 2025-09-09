@@ -47,3 +47,13 @@
   color: rgb(62, 113, 67);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.card {
+  margin-top: 20px;
+}
+footer {
+  background-color: rgb(218, 207, 196);
+  padding: 10px;
+}
+#talk {
+  margin-left: 10px;
+}
