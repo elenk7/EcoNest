@@ -13,10 +13,18 @@
     <link href="style2.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="background" class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            id="logo"
+            src="Logo.png"
+            alt="Logo"
+            width="60"
+            height="56"
+            class="d-inline-block align-text-top"
+          />EcoNest</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -31,10 +39,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Informations</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -44,19 +54,18 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                More
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Products</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Save the planet</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Profile</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -73,6 +82,19 @@
         </div>
       </div>
     </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <h1 id="main">Welcome to EcoNest</h1>
+
     <div class="row">
       <div id="carouselExample" class="carousel slide col-lg-8 col-12">
         <div class="carousel-inner">
@@ -372,7 +394,10 @@
         </div>
       </div>
     </div>
-
+    <div>
+      <h4>Thank you for choosing to shop with us!</h4>
+      <h5>You are making a difference and helping us achieve our goal!</h5>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
