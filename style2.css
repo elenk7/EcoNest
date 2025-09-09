@@ -27,10 +27,16 @@
   margin-top: 50px;
 }
 .btn {
-  background-color: rgb(92, 184, 132);
+  background-color: rgb(165, 197, 172);
+  border-color: rgb(165, 197, 172);
 }
 .btn:hover {
-  background-color: seagreen;
+  background-color: rgb(62, 113, 67);
+  border-color: rgb(62, 113, 67);
+}
+.btn:focus {
+  background-color: rgb(62, 113, 67);
+  border-color: rgb(62, 113, 67);
 }
 h4 {
   text-align: center;
