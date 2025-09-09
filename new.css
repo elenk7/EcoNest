@@ -57,3 +57,7 @@ footer {
 #talk {
   margin-left: 10px;
 }
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
