@@ -70,3 +70,6 @@ h5 {
   color: rgb(33, 59, 35);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.card-body {
+  background-color: rgb(249, 234, 214);
+}
