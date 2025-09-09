@@ -1,0 +1,24 @@
+#carouselExample {
+  display: flex;
+  justify-items: center;
+  margin: auto;
+}
+#carouselExample:focus {
+  width: 500px;
+  height: 700px;
+  display: flex;
+  justify-items: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  width: 300px;
+  margin-top: 50px;
+}
+.btn {
+  background-color: rgb(92, 184, 132);
+}
+.btn:hover {
+  background-color: seagreen;
+}
