@@ -53,6 +53,7 @@
 footer {
   background-color: rgb(218, 207, 196);
   padding: 10px;
+  margin-top: 20px;
 }
 #talk {
   margin-left: 10px;
@@ -63,14 +64,19 @@ footer {
 }
 
 .btn {
-  background-color: rgb(165, 197, 172);
+  background-color: rgb(96 142 106);
   border-color: rgb(165, 197, 172);
+  color: white;
 }
 .btn:hover {
   background-color: rgb(62, 113, 67);
   border-color: rgb(62, 113, 67);
 }
 .btn:focus {
+  background-color: rgb(62, 113, 67);
+  border-color: rgb(62, 113, 67);
+}
+.btn:focus-within {
   background-color: rgb(62, 113, 67);
   border-color: rgb(62, 113, 67);
 }
